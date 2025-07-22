@@ -1,2 +1,44 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Links</title>
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 20px 0;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+    a:hover {
+      color: #1da1f2;
+    }
+    i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Connect with Me</h1>
+  <ul>
+    <li><a href="https://www.twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i>Twitter (X)</a></li>
+    <li><a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+    <li><a href="https://www.youtube.com/@yourusername" target="_blank"><i class="fab fa-youtube"></i>YouTube</a></li>
+  </ul>
+</body>
+</html>
